@@ -65,7 +65,7 @@ a {
 
 .p5 { padding: 5px; }
 
-.header__inner { padding: 10px 20px; }
+.header-inner { padding: 10px 20px; }
 
 .fontfff { color: #fff; }
 
@@ -84,13 +84,13 @@ a {
 .fw600 { font-weight: 600; }
 
 
-.header__logo-img {
+.header-logo-img {
 	margin-right: 15px;
 	height: 40px;
 	width: 40px;
 }
 
-.nav__link {
+.nav-link {
 	padding-left: 15px;
 	color: #303846;
 }
@@ -103,55 +103,55 @@ a {
 	background-size: cover;
 }
 
-.block1__inner { margin: 50px auto; }
+.block1-inner { margin: 50px auto; }
 
-.block1__logo-img {
+.block1-logo-img {
 	height: 170px;
 	width: 170px;
 }
 
-.block1__text { margin: 25px 0; }
+.block1-text { margin: 25px 0; }
 
 .content-container { width: 1000px; }
 
 .block2 { height: 350px; }
 
-.block__inner { padding: 70px 0 80px; }
+.block-inner { padding: 70px 0 80px; }
 
-.item__title {
+.item-title {
 	margin-bottom: 15px;
 	letter-spacing: 1px;
 }
 
-.block__img {	height: 200px; }
+.block-img {	height: 200px; }
 
-.block__text { width: 600px; }
+.block-text { width: 600px; }
 
-.block5__inner {
+.block5-inner {
 	padding: 80px 0;
 	width: 460px;
 }
 
-.block5__title { margin-bottom: 50px; }
+.block5-title { margin-bottom: 50px; }
 
-.block5__form { margin-bottom: 30px; }
+.block5-form { margin-bottom: 30px; }
 
-.form__content { margin: 20px 0px; }
+.form-content { margin: 20px 0px; }
 
-.form__title {	font-size: 20px; }
+.form-title {	font-size: 20px; }
 
-.form__select {
+.form-select {
 	font-size: 15px;
 	border-color: #d9d9d9;
 }
 
 footer { background-color: #303846; }
 
-.footer__inner {
+.footer-inner {
 	justify-content: space-around;
 	margin: 0 100px;
 }
 
-.footer__item { margin: 80px 0; }
+.footer-item { margin: 80px 0; }
 
-.footer__title { margin-bottom: 20px; }
+.footer-title { margin-bottom: 20px; }
