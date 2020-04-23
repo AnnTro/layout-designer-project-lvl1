@@ -123,9 +123,9 @@ a {
 	letter-spacing: 1px;
 }
 
-.block3__img {	height: 200px; }
+.block__img {	height: 200px; }
 
-.block34__text { width: 600px; }
+.block__text { width: 600px; }
 
 .block5__inner {
 	padding: 80px 0;
@@ -154,4 +154,4 @@ footer { background-color: #303846; }
 
 .footer__item { margin: 80px 0; }
 
-.footer__title-1st { margin-bottom: 20px; }
+.footer__title { margin-bottom: 20px; }
