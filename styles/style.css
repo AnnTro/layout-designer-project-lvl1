@@ -4,13 +4,12 @@
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, div {
+h1, h2, h3, h4, h5, h6, p, div, body {
 	margin: 0;
 	padding: 0;
 }
 
-body {
-	margin: 0;
+body, .btn {
 	font-size: 16px;
 	color: #303846;
 	font-family: 'Open Sans', sans-serif;
@@ -31,211 +30,128 @@ a {
 
 	height: 60px;
 	width: 100%;
-
-	background-color: #fff;
 }
 
-.header__inner {
+.flexbox {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	padding: 10px 20px;
 }
 
-.header__logo, .footer__item-title {
-	display: flex;
-	align-items: center;
+.btn {
+	padding: 10px;
+
+	background: none;
+	outline: none;
+	border: 1px solid #fff;
+
+	cursor: pointer;
 }
+
+.center-align { align-items: center; }
+
+.text-align { text-align: center; }
+
+.m0a { margin: 0 auto; }
+
+.mb10 { margin-bottom: 10px; }
+
+.mr60 { margin-right: 60px; }
+
+.w150 { width: 150px; }
+
+.w300 { width: 300px; }
+
+.w200 { width: 200px; }
+
+.p5 { padding: 5px; }
+
+.header__inner { padding: 10px 20px; }
+
+.fontfff { color: #fff; }
+
+.font02d { color: #02d4ae; }
+
+.bo { border: 1px solid; }
+
+.boc02d { border-color: #02d4ae;} 
+
+.bgcfff { background-color: #fff; }
+
+.bgcf7f { background-color: #f7f7f7; }
+
+.bor8 { border-radius: 8px; }
+
+.fw600 { font-weight: 600; }
+
 
 .header__logo-img {
 	margin-right: 15px;
-
 	height: 40px;
 	width: 40px;
 }
 
 .nav__link {
 	padding-left: 15px;
-
 	color: #303846;
-	text-decoration: none;
 }
 
 .block1 {
 	margin-top: 60px;
-
-	width: 100%;
-	display: flex;
-	
 	background-image: url(../images/banner.png);
 	background-repeat: no-repeat;
 	background-position: 0 -400px;
 	background-size: cover;
 }
 
-.block1__inner {
-	margin: 50px auto;
-
-	text-align: center;
-}
+.block1__inner { margin: 50px auto; }
 
 .block1__logo-img {
 	height: 170px;
 	width: 170px;
 }
 
-.block1__text {
-	margin: 25px 0;
+.block1__text { margin: 25px 0; }
 
-	color: #fff;
-}
+.content-container { width: 1000px; }
 
-.btn {
-	padding: 10px 10px;
+.block2 { height: 350px; }
 
-	width: 150px;
-
-	font-size: 16px;
-	color: #fff;
-
-	border-radius: 8px;
-	background: none;
-	outline: none;
-	border: 1px solid #fff;
-}
-
-.content-container {
-	margin: 0 auto;
-
-	width: 1000px;
-}
-
-.block2 {
-	height: 350px;
-}
-
-.block__inner {
-	padding: 70px 0 80px;
-
-	display: flex;
-	justify-content: space-between;
-}
-
-.block2__item {
-	width: 300px;
-}
+.block__inner { padding: 70px 0 80px; }
 
 .item__title {
 	margin-bottom: 15px;
-
 	letter-spacing: 1px;
 }
 
+.block3__img {	height: 200px; }
 
-.block3 {
-	background-color: #f7f7f7;
-}
-
-.block3__img {
-	height: 200px;
-	width: 300px;
-}
-
-.block34__text {
-	width: 600px;
-}
-
-.block5 {
-	background-color: #f7f7f7;
-}
+.block34__text { width: 600px; }
 
 .block5__inner {
-	margin: 0 auto;
 	padding: 80px 0;
 	width: 460px;
 }
 
-.block5__title {
-	text-align: center;
-	margin-bottom: 50px;
-}
+.block5__title { margin-bottom: 50px; }
 
-.block5__form {
-	margin-bottom: 30px;
-}
+.block5__form { margin-bottom: 30px; }
 
-.fieldset {
-	border-color: #02d4ae;
-	border-radius: 3px;
-}
+.form__content { margin: 20px 0px; }
 
-.form__content {
-	margin: 20px 0px;
-}
-
-.form__title {
-	color: #02d4ae;
-	font-size: 20px;
-	font-weight: 600;
-}
-
-.form__item {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 10px;
-	margin-right: 60px;
-}
-
-.form__item-title { font-weight: 600; }
+.form__title {	font-size: 20px; }
 
 .form__select {
-	padding: 5px;
-	width: 150px;
-	
 	font-size: 15px;
-
-	background-color: #fff;
-	border-radius: 8px;
-	border: 1px solid #d9d9d9;
+	border-color: #d9d9d9;
 }
 
-.form2__item {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 10px;
-}
-
-.form2__select {
-	padding: 5px;
-	width: 200px;
-
-	font-size: 15px;
-
-	background-color: #fff;
-	border-radius: 8px;
-	border: 1px solid #d9d9d9;
-}
-
-.btn-2 {
-	color: #02d4ae;
-	border-color: #02d4ae;
-}
-
-footer {
-	background-color: #303846;	
-	color: #fff;
-}
+footer { background-color: #303846; }
 
 .footer__inner {
-	display: flex;
 	justify-content: space-around;
 	margin: 0 100px;
 }
 
-.footer__item {
-	margin: 80px 0;
-}
+.footer__item { margin: 80px 0; }
 
-.footer__title-1st {
-	margin-bottom: 20px;
-}
+.footer__title-1st { margin-bottom: 20px; }
