@@ -47,6 +47,8 @@ a {
 	cursor: pointer;
 }
 
+h2 { font-size: 26px; }
+
 .center-align { align-items: center; }
 
 .text-align { text-align: center; }
@@ -95,7 +97,7 @@ a {
 	color: #303846;
 }
 
-.block1 {
+.title-block {
 	margin-top: 60px;
 	background-image: url(../images/banner.png);
 	background-repeat: no-repeat;
@@ -103,18 +105,18 @@ a {
 	background-size: cover;
 }
 
-.block1-inner { margin: 50px auto; }
+.title-block-inner { margin: 50px auto; }
 
-.block1-logo-img {
+.title-block-logo-img {
 	height: 170px;
 	width: 170px;
 }
 
-.block1-text { margin: 25px 0; }
+.title-block-text { margin: 25px 0; }
 
 .content-container { width: 1000px; }
 
-.block2 { height: 350px; }
+.advantages-block { height: 350px; }
 
 .block-inner { padding: 70px 0 80px; }
 
@@ -127,14 +129,14 @@ a {
 
 .block-text { width: 600px; }
 
-.block5-inner {
+.booking-block-inner {
 	padding: 80px 0;
 	width: 460px;
 }
 
-.block5-title { margin-bottom: 50px; }
+.booking-block-title { margin-bottom: 50px; }
 
-.block5-form { margin-bottom: 30px; }
+.booking-block-form { margin-bottom: 30px; }
 
 .form-content { margin: 20px 0px; }
 
